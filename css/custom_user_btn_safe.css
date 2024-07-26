@@ -1,0 +1,27 @@
+.safe-user-btn {
+    background: #fff;
+    cursor: pointer !important;
+    text-align: center;
+    width: 30% !important;
+    -webkit-box-shadow: 0 7px 21px rgba(83, 92, 105, .12), 0 -1px 6px 0 rgba(83, 92, 105, .06);
+    box-shadow: 0 7px 21px rgba(83, 92, 105, .12), 0 -1px 6px 0 rgba(83, 92, 105, .06);
+
+}
+
+/* Стилями скрываю лишние пункты меню у пользователя в профиле */
+
+[id^="intranet-user-profile-security-menu-"] .ui-sidepanel-menu-item {
+    display: none !important;
+}
+
+[id^="intranet-user-profile-security-menu-"] .ui-sidepanel-menu-item:first-child {
+    display: block !important;
+}
+
+[id^="intranet-user-profile-security-menu-"] .ui-sidepanel-menu-item:last-child {
+    display: block !important;
+}
+
+.ui-popupcomponentmaker__content .ui-popupcomponentmaker__content--section:first-child .ui-popupcomponentmaker__content--section-item:first-child {
+    width: 70% !important;
+}
